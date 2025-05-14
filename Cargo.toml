@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "ch01-01-what-is-async",
+    "ch01-02-what-is-async",
+    "ch01-03-processes",
+    "ch01-04-threads",
+    "ch01-05-async-file-io",
+    "ch01-06-http-with-async",
+    "ch02-01-tasks",
+    "ch02-02-futures",
+    "ch02-03-pinning-futures",
+    "ch02-04-context-in-futures",
+    "ch02-05-waking-futures-remotely",
+    "ch02-06-sharing-data",
+    "ch02-07-high-level-data-sharing", "ch02-08-pull-it-all-together",
+]
+
+resolver = "3"
