@@ -23,8 +23,12 @@ impl SelfReferential {
     }
 }
 
+fn move_some_memory(sr: SelfReferential) {
+    sr.print();
+}
+
 fn main() {
     let first = SelfReferential::new("first".to_string());
-    let moved_first = first; // Move the struct
-    moved_first.print();
+    first.print();
+    move_some_memory(first);
 }
